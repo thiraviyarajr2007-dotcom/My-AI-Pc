@@ -1,0 +1,246 @@
+╔════════════════════════════════════════════════════════════╗
+║                                                            ║
+║           🖐️  GESTURE CONTROL GUIDE 🖐️                    ║
+║                                                            ║
+╚════════════════════════════════════════════════════════════╝
+
+┌────────────────────────────────────────────────────────────┐
+│  HOW TO TEST GESTURES                                      │
+└────────────────────────────────────────────────────────────┘
+
+  1. Double-click: TEST_GESTURES.bat
+  2. Camera window will open
+  3. Show your hand to the camera
+  4. Make a gesture
+  5. Hold steady for 2-3 seconds
+  6. Watch the action execute!
+  7. Press ESC to quit
+
+┌────────────────────────────────────────────────────────────┐
+│  GESTURE REFERENCE                                         │
+└────────────────────────────────────────────────────────────┘
+
+  1 FINGER (Point):
+  ─────────────────
+       ☝️
+      👆
+     Index finger up, others down
+     → Opens Chrome
+
+  2 FINGERS (Peace):
+  ──────────────────
+       ✌️
+      ✌️
+     Index + Middle fingers up
+     → Takes Screenshot
+
+  3 FINGERS:
+  ──────────
+       🤟
+      👌
+     Index + Middle + Ring up
+     → Opens Notepad
+
+  4 FINGERS:
+  ──────────
+       🖐️
+      ✋
+     All except thumb
+     → Opens Calculator
+
+  5 FINGERS (Open Palm):
+  ──────────────────────
+       🖐️
+      ✋
+     All fingers extended
+     → Opens File Explorer
+
+┌────────────────────────────────────────────────────────────┐
+│  TIPS FOR BEST RESULTS                                     │
+└────────────────────────────────────────────────────────────┘
+
+  ✓ Good Lighting
+    • Face a window or light source
+    • Avoid backlighting
+    • Ensure hand is well-lit
+
+  ✓ Clear Background
+    • Plain wall works best
+    • Avoid cluttered backgrounds
+    • Keep hand in focus
+
+  ✓ Steady Hand
+    • Hold gesture for 2-3 seconds
+    • Don't move too much
+    • Keep hand in camera view
+
+  ✓ Proper Distance
+    • 1-2 feet from camera
+    • Show full hand
+    • Not too close or far
+
+  ✓ Clear Gestures
+    • Make distinct finger positions
+    • Fully extend or fold fingers
+    • Avoid in-between positions
+
+┌────────────────────────────────────────────────────────────┐
+│  WHAT YOU'LL SEE                                           │
+└────────────────────────────────────────────────────────────┘
+
+  Camera Window Shows:
+  ───────────────────
+  • Live camera feed
+  • Hand skeleton overlay (green lines)
+  • Finger count display
+  • Gesture name
+  • Progress bar (when holding)
+  • Action confirmation (when executed)
+
+  Progress Bar:
+  ────────────
+  [████████░░] 80%  ← Hold steady!
+  
+  When it reaches 100%, action executes!
+
+┌────────────────────────────────────────────────────────────┐
+│  TROUBLESHOOTING                                           │
+└────────────────────────────────────────────────────────────┘
+
+  Hand Not Detected:
+  ─────────────────
+  • Check camera is working
+  • Improve lighting
+  • Move hand closer
+  • Show full hand to camera
+
+  Wrong Finger Count:
+  ──────────────────
+  • Make clearer gestures
+  • Fully extend fingers
+  • Keep hand steady
+  • Check lighting
+
+  Action Not Executing:
+  ────────────────────
+  • Hold gesture longer (2-3 seconds)
+  • Watch progress bar fill up
+  • Keep hand steady
+  • Wait for cooldown (3 seconds between actions)
+
+  Camera Not Opening:
+  ──────────────────
+  • Check webcam is connected
+  • Close other apps using camera
+  • Restart computer
+  • Check camera permissions
+
+┌────────────────────────────────────────────────────────────┐
+│  EXAMPLE SESSION                                           │
+└────────────────────────────────────────────────────────────┘
+
+  1. Run TEST_GESTURES.bat
+     [Camera opens]
+
+  2. Show 1 finger (point)
+     [Progress bar appears]
+     [Hold steady...]
+     [Progress: 100%]
+     [✓ Chrome opens!]
+
+  3. Show 2 fingers (peace)
+     [Hold steady...]
+     [✓ Screenshot taken!]
+
+  4. Show 3 fingers
+     [Hold steady...]
+     [✓ Notepad opens!]
+
+  5. Press ESC to quit
+
+┌────────────────────────────────────────────────────────────┐
+│  KEYBOARD CONTROLS                                         │
+└────────────────────────────────────────────────────────────┘
+
+  ESC  → Quit the test
+  
+  (No other keys needed - it's hands-free!)
+
+┌────────────────────────────────────────────────────────────┐
+│  WHAT HAPPENS WHEN YOU MAKE A GESTURE                      │
+└────────────────────────────────────────────────────────────┘
+
+  Step 1: Show gesture
+  ↓
+  Step 2: System detects hand
+  ↓
+  Step 3: Counts fingers
+  ↓
+  Step 4: Shows progress bar
+  ↓
+  Step 5: Hold for 2-3 seconds
+  ↓
+  Step 6: Progress reaches 100%
+  ↓
+  Step 7: Action executes!
+  ↓
+  Step 8: Green confirmation appears
+  ↓
+  Step 9: 3-second cooldown
+  ↓
+  Step 10: Ready for next gesture
+
+┌────────────────────────────────────────────────────────────┐
+│  PRACTICE SEQUENCE                                         │
+└────────────────────────────────────────────────────────────┘
+
+  Try this sequence to test all gestures:
+
+  1. 1 finger  → Chrome opens
+  2. Wait 3 seconds
+  3. 2 fingers → Screenshot taken
+  4. Wait 3 seconds
+  5. 3 fingers → Notepad opens
+  6. Wait 3 seconds
+  7. 4 fingers → Calculator opens
+  8. Wait 3 seconds
+  9. 5 fingers → File Explorer opens
+
+  All working? You're ready! ✓
+
+┌────────────────────────────────────────────────────────────┐
+│  ADVANCED TIPS                                             │
+└────────────────────────────────────────────────────────────┘
+
+  • Use right hand for better detection
+  • Keep fingers clearly separated
+  • Practice each gesture before testing
+  • Start with 1 finger (easiest)
+  • Work up to 5 fingers
+  • Be patient - it takes practice!
+
+┌────────────────────────────────────────────────────────────┐
+│  COMMON MISTAKES                                           │
+└────────────────────────────────────────────────────────────┘
+
+  ✗ Moving hand while holding gesture
+  ✗ Not holding long enough
+  ✗ Fingers not fully extended
+  ✗ Hand too close or too far
+  ✗ Poor lighting
+  ✗ Cluttered background
+  ✗ Trying next gesture too quickly
+
+  ✓ Hold steady
+  ✓ Wait for progress bar
+  ✓ Clear finger positions
+  ✓ Good lighting
+  ✓ Wait 3 seconds between gestures
+
+╔════════════════════════════════════════════════════════════╗
+║                                                            ║
+║  🎉 READY TO TEST! RUN: TEST_GESTURES.bat 🎉              ║
+║                                                            ║
+╚════════════════════════════════════════════════════════════╝
+
+  Have fun controlling your PC with gestures! 🖐️✨

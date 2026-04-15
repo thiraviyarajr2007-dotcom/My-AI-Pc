@@ -1,0 +1,576 @@
+[
+  {
+    "role": "user",
+    "content": "open chrome",
+    "timestamp": "2026-04-07T23:38:11.131957",
+    "metadata": {
+      "intent": "open_app",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Opening chrome...",
+    "timestamp": "2026-04-07T23:38:11.157557",
+    "metadata": {
+      "intent": "open_app",
+      "action": {
+        "module": "control_ai",
+        "function": "open_app",
+        "params": {
+          "app_name": "chrome"
+        }
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "open chrome",
+    "timestamp": "2026-04-07T23:39:28.274747",
+    "metadata": {
+      "intent": "open_app",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Opening chrome...",
+    "timestamp": "2026-04-07T23:39:28.298353",
+    "metadata": {
+      "intent": "open_app",
+      "action": {
+        "module": "control_ai",
+        "function": "open_app",
+        "params": {
+          "app_name": "chrome"
+        }
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "open chrome",
+    "timestamp": "2026-04-07T23:41:41.810239",
+    "metadata": {
+      "intent": "open_app",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Opening chrome...",
+    "timestamp": "2026-04-07T23:41:41.835759",
+    "metadata": {
+      "intent": "open_app",
+      "action": {
+        "module": "control_ai",
+        "function": "open_app",
+        "params": {
+          "app_name": "chrome"
+        }
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "find my documents",
+    "timestamp": "2026-04-07T23:41:42.168325",
+    "metadata": {
+      "intent": "search_file",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Searching for my documents...",
+    "timestamp": "2026-04-07T23:41:42.192609",
+    "metadata": {
+      "intent": "search_file",
+      "action": {
+        "module": "filesearch_ai",
+        "function": "search_by_name",
+        "params": {
+          "query": "my documents"
+        }
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "take a screenshot",
+    "timestamp": "2026-04-07T23:41:42.527423",
+    "metadata": {
+      "intent": "take_screenshot",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Taking screenshot...",
+    "timestamp": "2026-04-07T23:41:42.552802",
+    "metadata": {
+      "intent": "take_screenshot",
+      "action": {
+        "module": "aiscreencontrol_ai",
+        "function": "take_screenshot",
+        "params": {}
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "what can you do?",
+    "timestamp": "2026-04-07T23:41:42.887661",
+    "metadata": {
+      "intent": "question",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Processing your request...",
+    "timestamp": "2026-04-07T23:41:42.898638",
+    "metadata": {
+      "intent": "question",
+      "action": {
+        "module": null,
+        "function": null,
+        "params": {}
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "hello christa",
+    "timestamp": "2026-04-07T23:41:43.232837",
+    "metadata": {
+      "intent": "greeting",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! How can I help you today?",
+    "timestamp": "2026-04-07T23:41:43.241816",
+    "metadata": {
+      "intent": "greeting",
+      "action": {
+        "module": null,
+        "function": null,
+        "params": {}
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "open chrome",
+    "timestamp": "2026-04-07T23:50:37.995969",
+    "metadata": {
+      "intent": "open_app",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Opening chrome...",
+    "timestamp": "2026-04-07T23:50:38.021140",
+    "metadata": {
+      "intent": "open_app",
+      "action": {
+        "module": "control_ai",
+        "function": "open_app",
+        "params": {
+          "app_name": "chrome"
+        }
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "hello",
+    "timestamp": "2026-04-07T23:59:55.507105",
+    "metadata": {
+      "intent": "greeting",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! How can I help you today?",
+    "timestamp": "2026-04-07T23:59:55.522108",
+    "metadata": {
+      "intent": "greeting",
+      "action": {
+        "module": null,
+        "function": null,
+        "params": {}
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "what are you doing",
+    "timestamp": "2026-04-08T00:00:14.958076",
+    "metadata": {
+      "intent": "question",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Processing your request...",
+    "timestamp": "2026-04-08T00:00:14.974085",
+    "metadata": {
+      "intent": "question",
+      "action": {
+        "module": null,
+        "function": null,
+        "params": {}
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "laptop showing",
+    "timestamp": "2026-04-08T00:00:36.984635",
+    "metadata": {
+      "intent": "question",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Processing your request...",
+    "timestamp": "2026-04-08T00:00:37.005628",
+    "metadata": {
+      "intent": "question",
+      "action": {
+        "module": null,
+        "function": null,
+        "params": {}
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "Play Store",
+    "timestamp": "2026-04-08T00:00:56.296195",
+    "metadata": {
+      "intent": "unknown",
+      "confidence": 0.5
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "I'm not sure what you want. Can you rephrase that?",
+    "timestamp": "2026-04-08T00:00:56.311195",
+    "metadata": {
+      "intent": "unknown",
+      "action": {
+        "module": null,
+        "function": null,
+        "params": {}
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "how are you",
+    "timestamp": "2026-04-08T00:03:55.087371",
+    "metadata": {
+      "intent": "question",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Processing your request...",
+    "timestamp": "2026-04-08T00:03:55.137697",
+    "metadata": {
+      "intent": "question",
+      "action": {
+        "module": null,
+        "function": null,
+        "params": {}
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "how it works",
+    "timestamp": "2026-04-08T00:05:00.710557",
+    "metadata": {
+      "intent": "question",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Processing your request...",
+    "timestamp": "2026-04-08T00:05:00.745404",
+    "metadata": {
+      "intent": "question",
+      "action": {
+        "module": null,
+        "function": null,
+        "params": {}
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "open Chrome",
+    "timestamp": "2026-04-08T00:07:15.648654",
+    "metadata": {
+      "intent": "open_app",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Opening chrome...",
+    "timestamp": "2026-04-08T00:07:15.676947",
+    "metadata": {
+      "intent": "open_app",
+      "action": {
+        "module": "control_ai",
+        "function": "open_app",
+        "params": {
+          "app_name": "chrome"
+        }
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "hello",
+    "timestamp": "2026-04-08T00:13:57.831927",
+    "metadata": {
+      "intent": "greeting",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "It seems like you're trying to interact with the browser as if it were a human conversational partner. However, since I'm not directly interacting with the browser, I'll assume you want me to respond as if we were having a conversation.\n\nHello! How can I assist you today?",
+    "timestamp": "2026-04-08T00:14:23.348331",
+    "metadata": {
+      "intent": "greeting",
+      "action": {
+        "module": null,
+        "function": null,
+        "params": {}
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "open chrome",
+    "timestamp": "2026-04-08T00:14:23.373685",
+    "metadata": {
+      "intent": "open_app",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Since you've already asked me to open Chrome earlier, I'll use my context to recall that action. Here it is again:\n\nChrome has been opened.\n\n\nLet's continue our conversation in the browser if you'd like! What's on your mind?",
+    "timestamp": "2026-04-08T00:14:43.163307",
+    "metadata": {
+      "intent": "open_app",
+      "action": {
+        "module": "control_ai",
+        "function": "open_app",
+        "params": {
+          "app_name": "chrome"
+        }
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "what can you do?",
+    "timestamp": "2026-04-08T00:14:43.198210",
+    "metadata": {
+      "intent": "question",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Processing your request...",
+    "timestamp": "2026-04-08T00:15:15.271087",
+    "metadata": {
+      "intent": "question",
+      "action": {
+        "module": null,
+        "function": null,
+        "params": {}
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "hello",
+    "timestamp": "2026-04-08T00:20:36.990884",
+    "metadata": {
+      "intent": "greeting",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! How can I help you today?",
+    "timestamp": "2026-04-08T00:21:09.209131",
+    "metadata": {
+      "intent": "greeting",
+      "action": {
+        "module": null,
+        "function": null,
+        "params": {}
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "open chrome",
+    "timestamp": "2026-04-08T00:21:09.267626",
+    "metadata": {
+      "intent": "open_app",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "You've asked me to open Chrome twice. I'll make sure to remember that you want to open a new instance of Chrome.\n\n Opening Chrome...\n\nYour browser should now be active. Would you like me to navigate to a specific website or let you manage it as you see fit?",
+    "timestamp": "2026-04-08T00:21:26.368252",
+    "metadata": {
+      "intent": "open_app",
+      "action": {
+        "module": "control_ai",
+        "function": "open_app",
+        "params": {
+          "app_name": "chrome"
+        }
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "what can you do?",
+    "timestamp": "2026-04-08T00:21:26.407291",
+    "metadata": {
+      "intent": "question",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Processing your request...",
+    "timestamp": "2026-04-08T00:21:58.823244",
+    "metadata": {
+      "intent": "question",
+      "action": {
+        "module": null,
+        "function": null,
+        "params": {}
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "open chrome",
+    "timestamp": "2026-04-08T00:41:42.413217",
+    "metadata": {
+      "intent": "open_app",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Opening chrome...",
+    "timestamp": "2026-04-08T00:41:49.469736",
+    "metadata": {
+      "intent": "open_app",
+      "action": {
+        "module": "control_ai",
+        "function": "open_app",
+        "params": {
+          "app_name": "chrome"
+        }
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "open chrome",
+    "timestamp": "2026-04-08T10:36:55.572338",
+    "metadata": {
+      "intent": "open_app",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Opening chrome...",
+    "timestamp": "2026-04-08T10:36:55.586337",
+    "metadata": {
+      "intent": "open_app",
+      "action": {
+        "module": "control_ai",
+        "function": "open_app",
+        "params": {
+          "app_name": "chrome"
+        }
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "open edge",
+    "timestamp": "2026-04-08T10:37:05.844513",
+    "metadata": {
+      "intent": "open_app",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Opening edge...",
+    "timestamp": "2026-04-08T10:37:05.855514",
+    "metadata": {
+      "intent": "open_app",
+      "action": {
+        "module": "control_ai",
+        "function": "open_app",
+        "params": {
+          "app_name": "edge"
+        }
+      }
+    }
+  },
+  {
+    "role": "user",
+    "content": "open chrome",
+    "timestamp": "2026-04-08T10:46:50.932963",
+    "metadata": {
+      "intent": "open_app",
+      "confidence": 0.9
+    }
+  },
+  {
+    "role": "assistant",
+    "content": "Opening chrome...",
+    "timestamp": "2026-04-08T10:46:50.955969",
+    "metadata": {
+      "intent": "open_app",
+      "action": {
+        "module": "control_ai",
+        "function": "open_app",
+        "params": {
+          "app_name": "chrome"
+        }
+      }
+    }
+  }
+]

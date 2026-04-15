@@ -1,0 +1,119 @@
+# Christa AI — 100% FREE Dependencies
+# Install all: pip install -r requirements.txt
+
+# ═══════════════════════════════════════════════════════════════
+# 🆓 CORE (FREE)
+# ═══════════════════════════════════════════════════════════════
+requests>=2.28.0
+pyautogui>=0.9.53
+
+# ═══════════════════════════════════════════════════════════════
+# 🎤 VOICE SYSTEM (100% FREE & OFFLINE)
+# ═══════════════════════════════════════════════════════════════
+# Offline speech recognition (Whisper - RECOMMENDED)
+openai-whisper>=20231117
+
+# Fallback online speech recognition
+SpeechRecognition>=3.10.0
+
+# Text-to-speech (offline)
+pyttsx3>=2.90
+
+# Audio recording
+pyaudio>=0.2.13
+
+# ═══════════════════════════════════════════════════════════════
+# 👁️ VISION SYSTEM (100% FREE & OFFLINE)
+# ═══════════════════════════════════════════════════════════════
+# Computer vision
+opencv-python>=4.8.0
+
+# Gesture recognition
+mediapipe>=0.10.9
+
+# OCR - Screen reading (FREE)
+pytesseract>=0.3.10
+# Note: Also install Tesseract binary:
+#   Windows: https://github.com/UB-Mannheim/tesseract/wiki
+#   Linux: sudo apt-get install tesseract-ocr
+#   Mac: brew install tesseract
+
+# Object detection (FREE - YOLOv8)
+ultralytics>=8.0.0
+
+# Face recognition (optional - needs cmake + dlib)
+# face-recognition>=1.3.0
+
+# ═══════════════════════════════════════════════════════════════
+# 🧠 AI BRAIN (100% FREE & OFFLINE)
+# ═══════════════════════════════════════════════════════════════
+# Note: Ollama runs separately - install from https://ollama.com
+
+# RAG System (FREE)
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+langchain>=0.1.0
+langchain-community>=0.0.20
+
+# ═══════════════════════════════════════════════════════════════
+# 💾 MEMORY SYSTEM (100% FREE & OFFLINE)
+# ═══════════════════════════════════════════════════════════════
+# SQLite is built into Python - no installation needed!
+
+# ═══════════════════════════════════════════════════════════════
+# 🌐 CROSS-DEVICE API (100% FREE)
+# ═══════════════════════════════════════════════════════════════
+# Option 1: Flask (current)
+flask>=3.0.0
+flask-cors>=4.0.0
+flask-socketio>=5.3.0
+python-socketio>=5.10.0
+
+# Option 2: FastAPI (RECOMMENDED - faster & better)
+fastapi>=0.104.0
+uvicorn>=0.24.0
+websockets>=12.0
+
+# ═══════════════════════════════════════════════════════════════
+# 🔐 SECURITY (100% FREE)
+# ═══════════════════════════════════════════════════════════════
+cryptography>=41.0.0
+
+# ═══════════════════════════════════════════════════════════════
+# 🛠️ UTILITIES (100% FREE)
+# ═══════════════════════════════════════════════════════════════
+schedule>=1.2.0
+pyperclip>=1.8.2
+psutil>=5.9.0
+pywin32>=305  # Windows only
+
+# System Tray
+pillow>=10.0.0
+pystray>=0.19.0
+
+# ═══════════════════════════════════════════════════════════════
+# 📱 OPTIONAL ENHANCEMENTS (ALL FREE)
+# ═══════════════════════════════════════════════════════════════
+# Smart home integration
+# python-kasa>=0.5.0  # TP-Link devices
+# pyHS100>=0.3.5  # Smart plugs
+
+# TV casting
+# pychromecast>=13.0.0
+
+# Browser automation
+# selenium>=4.15.0
+# playwright>=1.40.0
+
+# ═══════════════════════════════════════════════════════════════
+# 💰 COST COMPARISON
+# ═══════════════════════════════════════════════════════════════
+# This FREE stack replaces:
+#   - OpenAI API: $20/month → $0 (Ollama)
+#   - Google Speech: $1.44/hour → $0 (Whisper)
+#   - Google Vision: $1.50/1K → $0 (OpenCV + YOLO)
+#   - MongoDB Atlas: $57/month → $0 (SQLite)
+#   - AWS Hosting: $50/month → $0 (Local)
+# 
+# TOTAL SAVINGS: $4,024/year → $0/year
+# ═══════════════════════════════════════════════════════════════

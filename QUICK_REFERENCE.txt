@@ -1,0 +1,255 @@
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║           🤖 CHRISTA AI - QUICK REFERENCE CARD 🤖             ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+┌────────────────────────────────────────────────────────────────┐
+│  🚀 START THE SYSTEM                                           │
+└────────────────────────────────────────────────────────────────┘
+
+  Standard UI:        start_oracle_ui.bat
+  Advanced UI:        START_ADVANCED.bat
+  Console Mode:       python start_free_christa.py
+  
+  URL:                http://localhost:5000
+
+┌────────────────────────────────────────────────────────────────┐
+│  💬 BASIC COMMANDS                                             │
+└────────────────────────────────────────────────────────────────┘
+
+  "hello"                    → Greeting
+  "what can you do?"         → List capabilities
+  "help"                     → Show help
+  "open <app>"               → Open application
+  "search <query>"           → Search files
+  "take screenshot"          → Capture screen
+
+┌────────────────────────────────────────────────────────────────┐
+│  🎤 VOICE COMMANDS                                             │
+└────────────────────────────────────────────────────────────────┘
+
+  Click 🎤 button, then say:
+  
+  • "open chrome"
+  • "find my documents"
+  • "what's my current app?"
+  • "take a screenshot"
+  • "run workflow morning_routine"
+
+┌────────────────────────────────────────────────────────────────┐
+│  📁 FILE SEARCH                                                │
+└────────────────────────────────────────────────────────────────┘
+
+  By Name:        "find report.pdf"
+  By Extension:   "search *.py files"
+  By Content:     "find files containing TODO"
+  Recent:         "show recent files"
+  Large:          "find large files"
+
+┌────────────────────────────────────────────────────────────────┐
+│  🔄 WORKFLOW AUTOMATION                                        │
+└────────────────────────────────────────────────────────────────┘
+
+  Record:         "start recording workflow"
+  Stop:           "stop recording"
+  Execute:        "run workflow <name>"
+  List:           "list workflows"
+
+┌────────────────────────────────────────────────────────────────┐
+│  🖥️ SCREEN CONTROL                                             │
+└────────────────────────────────────────────────────────────────┘
+
+  Move Mouse:     "move mouse to 500 300"
+  Click:          "click at 100 200"
+  Type:           "type Hello World"
+  Press Key:      "press enter"
+  Shortcut:       "press ctrl+s"
+  Screenshot:     "screenshot"
+  Scroll:         "scroll up 5"
+
+┌────────────────────────────────────────────────────────────────┐
+│  🎯 SYSTEM CONTROL                                             │
+└────────────────────────────────────────────────────────────────┘
+
+  Lock:           "lock screen"
+  Volume:         "volume up" / "volume down"
+  Mute:           "mute"
+  Shutdown:       "shutdown" (60s delay)
+  Restart:        "restart" (60s delay)
+  Cancel:         "cancel shutdown"
+
+┌────────────────────────────────────────────────────────────────┐
+│  📊 STATISTICS & INFO                                          │
+└────────────────────────────────────────────────────────────────┘
+
+  View Stats:     Sidebar → Statistics
+  System Info:    "system info"
+  Current App:    "what am I using?"
+  Most Used:      "show most used apps"
+
+┌────────────────────────────────────────────────────────────────┐
+│  🔧 KEYBOARD SHORTCUTS                                         │
+└────────────────────────────────────────────────────────────────┘
+
+  Send Message:   Enter
+  Voice Input:    Click 🎤
+  Clear Chat:     Clear button
+  Refresh Stats:  Refresh button
+
+┌────────────────────────────────────────────────────────────────┐
+│  🎨 TWO UIs AVAILABLE                                          │
+└────────────────────────────────────────────────────────────────┘
+
+  Standard UI:
+  • Beautiful Oracle design
+  • Simple and fast
+  • Perfect for beginners
+  • File: christa_ui.py
+
+  Advanced UI:
+  • All Standard features
+  • Multitasking support
+  • All modules integrated
+  • Perfect for power users
+  • File: christa_advanced_ui.py
+
+┌────────────────────────────────────────────────────────────────┐
+│  🔧 8 INTEGRATED MODULES                                       │
+└────────────────────────────────────────────────────────────────┘
+
+  1. AI Brain              → Intelligence & reasoning
+  2. Control AI            → System & app control
+  3. File Search           → Find files instantly
+  4. Workflow Automation   → Record & replay tasks
+  5. Context Awareness     → Learn your patterns
+  6. Screen Control        → Mouse & keyboard automation
+  7. Gesture Recognition   → Hand gesture control
+  8. Face Recognition      → Identity detection
+
+┌────────────────────────────────────────────────────────────────┐
+│  📚 DOCUMENTATION FILES                                        │
+└────────────────────────────────────────────────────────────────┘
+
+  Getting Started:
+  • COMPLETE_SYSTEM_GUIDE.md
+  • GET_STARTED.md
+  • HOW_TO_USE.md
+
+  Advanced Features:
+  • ADVANCED_FEATURES_COMPLETE.md
+  • FEATURES_COMPARISON.md
+  • WORKFLOW_GUIDE.md
+
+  UI Design:
+  • ORACLE_UI_COMPLETE.md
+  • UI_DESIGN_SUMMARY.md
+  • UI_PREVIEW.md
+
+  Technical:
+  • FREE_UPGRADE_GUIDE.md
+  • ACCURACY_SOLUTION.md
+  • API_DOCUMENTATION.md
+
+┌────────────────────────────────────────────────────────────────┐
+│  🐛 TROUBLESHOOTING                                            │
+└────────────────────────────────────────────────────────────────┘
+
+  UI not loading:
+  → Check Ollama running: ollama serve
+  → Check port 5000 free
+  → Restart server
+
+  Voice not working:
+  → Allow microphone in browser
+  → Check Whisper model loaded
+  → Try text input first
+
+  Slow performance:
+  → Close unused apps
+  → Use smaller Whisper model
+  → Clear old data
+
+┌────────────────────────────────────────────────────────────────┐
+│  💡 PRO TIPS                                                   │
+└────────────────────────────────────────────────────────────────┘
+
+  1. Create workflows for repetitive tasks
+  2. Let context awareness learn your patterns
+  3. Use voice for hands-free operation
+  4. Search files by content for quick finding
+  5. Combine commands for complex actions
+  6. Use wildcards in file search (*.py)
+  7. Schedule workflows for automation
+  8. Monitor statistics to optimize usage
+
+┌────────────────────────────────────────────────────────────────┐
+│  🎯 EXAMPLE WORKFLOWS                                          │
+└────────────────────────────────────────────────────────────────┘
+
+  Morning Routine:
+  1. Open Chrome
+  2. Open Spotify
+  3. Open VS Code
+  4. Search recent files
+
+  Report Generation:
+  1. Search data files
+  2. Open Excel
+  3. Take screenshot
+  4. Open Word
+
+  End of Day:
+  1. Save all work
+  2. Take backup
+  3. Close all apps
+  4. Lock screen
+
+┌────────────────────────────────────────────────────────────────┐
+│  📊 SYSTEM REQUIREMENTS                                        │
+└────────────────────────────────────────────────────────────────┘
+
+  OS:         Windows 10/11
+  Python:     3.10 or higher
+  RAM:        4GB minimum, 8GB recommended
+  Disk:       2GB free space
+  Internet:   Not required (100% offline)
+
+┌────────────────────────────────────────────────────────────────┐
+│  🔐 PRIVACY & SECURITY                                         │
+└────────────────────────────────────────────────────────────────┘
+
+  ✓ 100% offline operation
+  ✓ No cloud uploads
+  ✓ Local AI processing
+  ✓ Encrypted storage
+  ✓ No data collection
+  ✓ Secure sessions
+
+┌────────────────────────────────────────────────────────────────┐
+│  🌟 KEY FEATURES                                               │
+└────────────────────────────────────────────────────────────────┘
+
+  ✓ Real-time chat with AI
+  ✓ Voice input & control
+  ✓ Multitasking support
+  ✓ File search across system
+  ✓ Workflow automation
+  ✓ Context awareness
+  ✓ Screen control
+  ✓ Gesture recognition
+  ✓ Face recognition
+  ✓ Statistics tracking
+  ✓ Beautiful Oracle UI
+  ✓ 100% free & offline
+
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║  🎉 READY TO USE! START YOUR AI ASSISTANT NOW! 🚀             ║
+║                                                                ║
+║  Standard UI:  start_oracle_ui.bat                            ║
+║  Advanced UI:  START_ADVANCED.bat                             ║
+║                                                                ║
+║  Then open:    http://localhost:5000                          ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
